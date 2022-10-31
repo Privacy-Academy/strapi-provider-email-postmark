@@ -1,0 +1,36 @@
+{
+  "name": "@joshmeads/strapi-provider-email-postmark",
+  "version": "4.4.5",
+  "description": "Postmark provider for strapi email",
+  "keywords": [
+    "email",
+    "strapi"
+  ],
+  "bugs": {
+    "url": "https://github.com/joshmeads/strapi-provider-email-postmark/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joshmeads/strapi-provider-email-postmark.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Josh Meads",
+    "email": "github@joshmeads.com",
+    "url": "https://github.com/joshmeads"
+  },
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@strapi/utils": "4.4.5",
+    "postmark": "^3.0.14",
+    "lodash": "^4.17.15"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  }
+}
